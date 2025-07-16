@@ -1,0 +1,12 @@
+name: First Flow
+
+on: 
+    push:
+        branches: [main]
+
+jobs:
+    sy_hel:
+        runs-on: ubuntu-latest
+        steps:
+            - name: print message
+              run: echo "Hello, sir"
