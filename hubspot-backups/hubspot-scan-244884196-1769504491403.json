@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "portalId": "244884196",
+    "portalName": "Hub 244884196",
+    "scannedAt": "January 27, 2026 at 2:31 PM GMT+5:30",
+    "toolVersion": "1.0.0"
+  },
+  "summary": {
+    "complexity": "simple",
+    "totalProperties": 2,
+    "totalPipelines": 1,
+    "totalCustomObjects": 0,
+    "totalAssociationLabels": 0
+  },
+  "properties": {
+    "contacts": [
+      {
+        "name": "new_hell_test",
+        "label": "New_hell_test",
+        "type": "",
+        "fieldType": "",
+        "groupName": ""
+      },
+      {
+        "name": "test_custom_property",
+        "label": "test_custom_property",
+        "type": "",
+        "fieldType": "",
+        "groupName": ""
+      }
+    ],
+    "companies": [],
+    "deals": []
+  },
+  "propertyGroups": {
+    "contacts": [
+      {
+        "name": "contact_activity",
+        "label": "Contact activity",
+        "displayOrder": 0
+      },
+      {
+        "name": "deal_information",
+        "label": "Deal information",
+        "displayOrder": 0
+      },
+      {
+        "name": "order_information",
+        "label": "Order Information",
+        "displayOrder": 0
+      },
+      {
+        "name": "sales_properties",
+        "label": "Sales properties",
+        "displayOrder": 0
+      },
+      {
+        "name": "calculated_contact_information",
+        "label": "Calculated Contact Information",
+        "displayOrder": 0
+      },
+      {
+        "name": "contact_information",
+        "label": "Contact information",
+        "displayOrder": 0
+      },
+      {
+        "name": "multi_account_management",
+        "label": "Multi Account Management",
+        "displayOrder": 0
+      },
+      {
+        "name": "social_media_information",
+        "label": "Social media information",
+        "displayOrder": 0
+      },
+      {
+        "name": "web_analytics_history",
+        "label": "Web analytics history",
+        "displayOrder": 0
+      },
+      {
+        "name": "conversion_information",
+        "label": "Conversion information",
+        "displayOrder": 0
+      },
+      {
+        "name": "email_information",
+        "label": "Email information",
+        "displayOrder": 0
+      },
+      {
+        "name": "facebook_ads_properties",
+        "label": "Facebook Ads properties",
+        "displayOrder": 0
+      },
+      {
+        "name": "contact_lifecycle_stage_properties",
+        "label": "Contact Lifecycle Stage Properties",
+        "displayOrder": 0
+      },
+      {
+        "name": "sms_information",
+        "label": "SMS information",
+        "displayOrder": 0
+      }
+    ],
+    "companies": [
+      {
+        "name": "company_activity",
+        "label": "Company activity",
+        "displayOrder": 0
+      },
+      {
+        "name": "deal_information",
+        "label": "Deal information",
+        "displayOrder": 0
+      },
+      {
+        "name": "sales_properties",
+        "label": "Sales properties",
+        "displayOrder": 0
+      },
+      {
+        "name": "buyer_intent",
+        "label": "Buyer Intent",
+        "displayOrder": 0
+      },
+      {
+        "name": "company_signals",
+        "label": "Company Signals",
+        "displayOrder": 0
+      },
+      {
+        "name": "company_information",
+        "label": "Company information",
+        "displayOrder": 0
+      },
+      {
+        "name": "social_media_information",
+        "label": "Social media information",
+        "displayOrder": 0
+      },
+      {
+        "name": "web_analytics_history",
+        "label": "Web analytics history",
+        "displayOrder": 0
+      },
+      {
+        "name": "conversion_information",
+        "label": "Conversion information",
+        "displayOrder": 0
+      },
+      {
+        "name": "target_accounts_information",
+        "label": "Target accounts information",
+        "displayOrder": 0
+      },
+      {
+        "name": "company_lifecycle_stage_properties",
+        "label": "Company lifecycle stage properties",
+        "displayOrder": 0
+      }
+    ],
+    "deals": [
+      {
+        "name": "deal_activity",
+        "label": "Deal activity",
+        "displayOrder": 0
+      },
+      {
+        "name": "deal_revenue",
+        "label": "Deal revenue",
+        "displayOrder": 0
+      },
+      {
+        "name": "calculated_deal_information",
+        "label": "Calculated Deal Information",
+        "displayOrder": 0
+      },
+      {
+        "name": "deal_information",
+        "label": "Deal information",
+        "displayOrder": 0
+      },
+      {
+        "name": "historical_properties",
+        "label": "Historical Properties",
+        "displayOrder": 0
+      },
+      {
+        "name": "multi_account_management",
+        "label": "Multi Account Management",
+        "displayOrder": 0
+      },
+      {
+        "name": "predictive_deal_score_feature_properties",
+        "label": "Predictive Deal Score Feature Properties",
+        "displayOrder": 0
+      },
+      {
+        "name": "analytics_history",
+        "label": "Analytics history",
+        "displayOrder": 0
+      },
+      {
+        "name": "deal_stage_properties",
+        "label": "Deal Stage Properties",
+        "displayOrder": 0
+      }
+    ]
+  },
+  "pipelines": {
+    "deals": [
+      {
+        "id": "deals_sales_pipeline",
+        "label": "Sales Pipeline",
+        "displayOrder": 0,
+        "stages": [
+          {
+            "id": "appointmentscheduled",
+            "label": "Appointment Scheduled",
+            "displayOrder": 0
+          },
+          {
+            "id": "qualifiedtobuy",
+            "label": "Qualified To Buy",
+            "displayOrder": 1
+          },
+          {
+            "id": "presentationscheduled",
+            "label": "Presentation Scheduled",
+            "displayOrder": 2
+          },
+          {
+            "id": "decisionmakerboughtin",
+            "label": "Decision Maker Bought-In",
+            "displayOrder": 3
+          },
+          {
+            "id": "contractsent",
+            "label": "Contract Sent",
+            "displayOrder": 4
+          },
+          {
+            "id": "closedwon",
+            "label": "Closed Won",
+            "displayOrder": 5
+          },
+          {
+            "id": "closedlost",
+            "label": "Closed Lost",
+            "displayOrder": 6
+          }
+        ]
+      }
+    ]
+  },
+  "schemas": [],
+  "associations": []
+}
